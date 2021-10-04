@@ -15,9 +15,9 @@ for j in range(n):
 x.append(int(input('nuamrul: ')))
 for z in range(0,len(a)):
 p+= a[z][z]
-print('a)suma pe diagonala principala: ',p)
+print('p)suma pe diagonala principala: ',p)
 s += a[len(a)-z-1][z]
-print('b)suma pe diagonala secundara: ',s)
+print('s)suma pe diagonala secundara: ',s)
 for x in range(n):
 for z in range(n):
 if x<z:
