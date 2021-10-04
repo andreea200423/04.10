@@ -1,4 +1,4 @@
-n=int(input('Introduceti numarul de linii matrice: '))
+n=int(input('introduceti numarul de linii matrice: '))
 a=[]
 p=0
 s=0
@@ -14,7 +14,7 @@ print('sir:',a.index(x)+1)
 for j in range(n):
 x.append(int(input('nuamrul: ')))
 for z in range(0,len(a)):
-p+= a[z][z]
+p += a[z][z]
 print('p)suma pe diagonala principala: ',p)
 s += a[len(a)-z-1][z]
 print('s)suma pe diagonala secundara: ',s)
